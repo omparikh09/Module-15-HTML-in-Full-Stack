@@ -1,0 +1,21 @@
+Question 3: Why should tables be used sparingly for layout purposes? What is a better alternative?
+
+ans:- Problems with using tables for layout is:
+
+    1. Not made for layout :-
+        -> Tables are meant to show data, not to design the structure of a webpage.
+
+    2. Hard to update :-
+        If you want to change something in a table-based layout, it’s difficult and time-consuming.
+
+    3. Not good for mobile :-
+        Tables don’t adjust well to small screens like phones or tablets. Your layout might break 
+        or look bad.
+
+    4. Messy code :-
+        Tables require a lot of extra HTML tags, which makes your code long and harder to read.
+
+    What you should use instead:
+
+        -> A better way to create layouts is by using CSS with semantic tags like <div>,<header>,
+        <section>, etc., and tools like Flexbox or Grid.

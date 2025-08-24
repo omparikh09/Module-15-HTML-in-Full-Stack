@@ -1,0 +1,7 @@
+Question 3: What is the difference between block-level elements and inline elements in HTML? Provide examples of each.
+
+ans:- Block-level elements take the full width available and always start on a new line. 
+    They create larger structural sections of a webpage.
+
+    for Ex :- <h1> to <h2>, <p>, <div> this are block-level elements. Where <span>, <b>, <img> takes content width.
+     

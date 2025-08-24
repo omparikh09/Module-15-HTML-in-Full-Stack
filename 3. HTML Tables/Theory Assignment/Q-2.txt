@@ -1,0 +1,10 @@
+Question 2: What is the difference between colspan and rowspan in tables? Provide examples.
+
+ans:- 
+    1. Colspan :-
+        -> Expands a horizontally across multiple columns.
+        -> <td colspan="2"> merges 2 columns into one.
+
+    2. Rowspan :-
+        -> Expands a Vertically across multiple rows.
+        -> <td rowspan="2> merges 2 rows into one.

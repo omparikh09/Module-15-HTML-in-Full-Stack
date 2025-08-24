@@ -1,0 +1,51 @@
+Question 2: Explain the difference between the GET and POST methods in form submission.
+When should each be used?
+
+ans:- 
+    1. GET :- 
+        -> Data Transmission :-
+            Sends data as query parameters in the URL.
+        
+        -> Visibility :-
+            Data is visible in the URL (less secure).
+        
+        -> Data Length :-
+            Limited by URL length (usually 2000 characters).
+        
+        -> Use in Browser History / Bookmarking :-
+            URL (with data) can be bookmarked or shared.
+        
+        -> Performance :-
+            Faster since data is just appended to URL.
+
+    2. POST :- 
+        -> Data Transmission :-
+            Sends data in the request body, not visible in the URL.
+        
+        -> Visibility :-
+            Data is hidden from the URL (more secure).
+        
+        -> Data Length :-
+            No practical size limit (depends on server).
+        
+        -> Use in Browser History / Bookmarking :-
+            Cannot be bookmarked with data.
+        
+        -> Performance :-
+            Slower since data is packaged in the request body.
+
+    When to Use Each
+
+    1. Use GET when :-
+        -> You don’t need to send sensitive data.
+        
+        -> The action doesn’t change anything on the server.
+        
+        -> You want the data to be bookmarkable or shareable via URL.
+
+    2. Use POST when :-
+        -> You are sending sensitive or confidential data
+        
+        -> The action updates or adds something to the server.
+        
+        -> You’re submitting large or complex forms.

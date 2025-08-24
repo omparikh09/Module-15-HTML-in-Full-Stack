@@ -1,0 +1,8 @@
+Question 3: What is the purpose of the label element in a form, and how does it improve
+accessibility?
+
+ans:- The <label> element is used to define a caption for an input element (like text 
+fields, checkboxes, radio buttons, etc.).
+
+This improves accessibility because screen readers can read out the label along with the 
+input, helping visually impaired users understand the form better

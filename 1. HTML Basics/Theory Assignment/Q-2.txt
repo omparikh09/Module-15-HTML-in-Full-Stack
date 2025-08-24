@@ -1,0 +1,26 @@
+Question 2: Explain the basic structure of an HTML document. Identify the mandatory tags and their purposes.
+
+ans:- The basic structure of html.
+    1. <DOCTYPE Html> :- 
+        Represent Html version 5.
+    
+    2. <html lang =" en"> :- 
+        Laguage represent the content in body tag is in English laguage and it's just 
+    give information not show in output.
+
+    3. <Head> :-
+        Head contains meta information's that dose not show in website.
+
+    4. <meta charset="UTF-8"> :-
+        UTF-8 represent the asci value because computer only undertand binary or asci value.
+
+    5. <meta name="viewport" content="width=device-width, initial-scale=1.0"> :- 
+        It's controlling layout on mobile browsers.
+
+    6. <title> :- 
+        Sets the title of the webpage and browser tab.
+
+    7. <body> :-
+        Contains all the visible in the webpage like Links, Text, Form, Table, Images, etc.
+
+    

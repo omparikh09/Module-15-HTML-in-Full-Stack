@@ -1,0 +1,65 @@
+<!-- 
+Task: Create a product catalog table that includes the following columns:
+
+o Product Name
+o Product Image (use placeholder image URLs)
+o Price
+o Description
+o Availability (in stock, out ofstock)
+
+Additional Requirements:
+
+o Use thead for the table header.
+o Add a border and some basic styling using inline CSS.
+o Use colspan or rowspan to merge cells where applicable. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Product Catalog</h2>
+    <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 80%; margin: auto; text-align: center;">
+        <thead style="background-color: #f2f2f2;">
+            <tr>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <!-- Product Rows -->
+        <tr>
+            <td rowspan="2">Smartphone</td>
+            <td rowspan="2"><img src="https://mdsmobile.ae/cdn/shop/files/6D6FB140-1DEE-49D8-833C-2AF6B7E7C8E6_600x.jpg?v=1754053674" alt="Smartphone" style="width: 200px; height: 180px;"></td>
+            <td>$500</td>
+            <td>64GB, 4GB RAM, 12MP Camera</td>
+            <td>In Stock</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color:#fafafa;">Special Offer: Free delivery on orders above $300</td>
+        </tr>
+
+        <tr>
+            <td>Laptop</td>
+            <td><img src="https://m.media-amazon.com/images/I/514gBV5d1OL._UF1000,1000_QL80_.jpg" alt="Laptop" style="width: 200px; height: 200px;"></td>
+            <td>$1200</td>
+            <td>15.6" Display, 16GB RAM, 512GB SSD</td>
+            <td>In Stock</td>
+        </tr>
+
+        <tr>
+            <td>Headphones</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGOTmS5TDc4f1hrYrbCQpdHiIjbXuvfwQFA&s" alt="Headphones" style="width: 200px; height: 200px;"></td>
+            <td>$80</td>
+            <td>Wireless, Noise Cancelling</td>
+            <td>Out of Stock</td>
+        </tr>
+    </table>    
+</body>
+</html>

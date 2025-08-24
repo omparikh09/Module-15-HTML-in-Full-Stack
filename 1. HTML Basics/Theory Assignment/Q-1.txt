@@ -1,0 +1,4 @@
+Question 1: Define HTML. What is the purpose of HTML in web development?
+
+ans:- Html stands for Hyper Text Markup language. it's a scripting laguage not a programming laguage.
+    The purpose of html in web development is to provide fundamental structure of a web page.
